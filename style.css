@@ -1,0 +1,40 @@
+:root {
+  --color1: #933470;
+  --color2: #c94b9b;
+  --color3: #e282bf;
+  --color4: #f3b2cd;
+  --basecolor: #e9dcdc;
+  --font1: "Reenie Beanie", cursive;
+}
+
+body {
+  background-color: var(--basecolor);
+}
+h1 {
+  font-family: var(--font1);
+}
+
+/* HEADER */
+
+.navbar-brand {
+  font-family: var(--font1);
+  font-size: 3rem;
+  color: var(--basecolor);
+}
+
+.navbar {
+  background-color: var(--color4);
+}
+
+/* MAIN */
+
+.carousel-item {
+  max-height: 80vh;
+}
+.card-text {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
