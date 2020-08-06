@@ -145,6 +145,13 @@ footer .crafted {
     min-width: 80%;
   }
 
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   /* CONTACT */
 
   iframe {
