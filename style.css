@@ -61,6 +61,17 @@ h1 {
   flex: 1;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 2rem;
+}
+
+.left {
+  text-align: left;
+}
+
 /* CONTACT */
 
 .form-group {
@@ -68,4 +79,22 @@ h1 {
   align-items: center;
   justify-content: center;
   max-width: 50%;
+}
+
+/* PRIVACY */
+
+.dropbtn
+
+/* FOOTER */
+
+footer {
+  font-family: var(--font1);
+  font-size: 1.5rem;
+  color: black;
+  min-height: 100px;
+}
+
+.impressum ul {
+  font-size: small;
+  list-style: none;
 }
