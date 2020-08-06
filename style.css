@@ -166,5 +166,6 @@ footer .crafted {
 
   .privacy {
     width: 80%;
+    word-break: break-all;
   }
 }
