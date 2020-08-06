@@ -150,4 +150,10 @@ footer .crafted {
   iframe {
     width: 60%;
   }
+
+  /* TERMS */
+
+  .privacy {
+    width: 80%;
+  }
 }
