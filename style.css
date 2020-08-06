@@ -168,4 +168,11 @@ footer .crafted {
     width: 80%;
     word-break: break-all;
   }
+
+  .crafted {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
