@@ -2,7 +2,7 @@
   --color1: #933470;
   --color2: #c94b9b;
   --color3: #e282bf;
-  --color4: #f3b2cd;
+  --color4: #daa6b1;
   --basecolor: #e9dcdc;
   --font1: "Reenie Beanie", cursive;
 }
@@ -12,6 +12,7 @@ body {
 }
 h1 {
   font-family: var(--font1);
+  text-shadow: 4px 4px 5px rgb(142, 142, 142);
 }
 
 /* HEADER */
@@ -19,7 +20,7 @@ h1 {
 .navbar-brand {
   font-family: var(--font1);
   font-size: 3rem;
-  color: var(--basecolor);
+  text-shadow: 4px 4px 5px rgb(142, 142, 142);
 }
 
 .navbar {
@@ -28,13 +29,43 @@ h1 {
 
 /* MAIN */
 
+.carousel {
+  box-shadow: 4px 4px 5px rgb(142, 142, 142);
+}
+
 .carousel-item {
   max-height: 80vh;
 }
+
+.card {
+  max-width: 25%;
+  flex: 1;
+  margin-top: 5%;
+  height: 90%;
+  box-shadow: 4px 4px 5px rgb(142, 142, 142);
+}
+
 .card-text {
   text-align: center;
 }
 
+.inrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .jumbotron {
   background-color: transparent;
+  max-width: 100%;
+  flex: 1;
+}
+
+/* CONTACT */
+
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
 }
