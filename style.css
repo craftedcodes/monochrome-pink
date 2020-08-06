@@ -134,6 +134,10 @@ footer .crafted {
 
   /* MAIN */
 
+  .carousel-inner {
+    max-width: 100%;
+  }
+
   .inrow {
     display: flex;
     align-items: center;
