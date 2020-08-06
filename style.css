@@ -117,30 +117,37 @@ footer .crafted {
 
 /* MEDIA */
 
-@media screen and (max-width: 600px) {
-    body {
-        min-width: 50%;
-        max-width: 100%;
-    }
+@media screen and (max-width: 414px) {
+  body {
+    min-width: 50%;
+    max-width: 100%;
+  }
   /* MEDIA HEADER */
 
   .navbar {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .navbar-toggler {
-      margin-right: 1.8rem;
+    margin-right: 1.8rem;
   }
 
   /* MAIN */
 
   .inrow {
-      display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .card {
-      min-width: 80%;
+    min-width: 80%;
   }
+
+  /* CONTACT */
+
+  iframe {
+    width: 90%;
+  }
+}
